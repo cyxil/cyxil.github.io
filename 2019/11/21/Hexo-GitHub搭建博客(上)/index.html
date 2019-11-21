@@ -141,7 +141,7 @@
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;21&#x2F;Hexo-GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2(%E4%B8%8A)&#x2F;SSH02.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;21&#x2F;Hexo-GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2(%E4%B8%8A)&#x2F;SSH03.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;21&#x2F;Hexo-GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2(%E4%B8%8A)&#x2F;SSH04.png">
-<meta property="og:updated_time" content="2019-11-21T17:40:18.764Z">
+<meta property="og:updated_time" content="2019-11-21T17:47:56.024Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;21&#x2F;Hexo-GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2(%E4%B8%8A)&#x2F;Github01.png">
 
@@ -473,10 +473,10 @@
 
 <p>不安装会导致报错。</p>
 <h4 id="config-yml-配置"><a href="#config-yml-配置" class="headerlink" title="_config.yml 配置"></a>_config.yml 配置</h4><p>用代码编辑器打开博客根目录下的_config.yml文件，找到 deploy ，改成下面的格式。</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">博客的Github路径</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">Github路径</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
 
 <p>Github路径在哪呢？</p>
-<p>打开Github下创建的仓库，有一个绿色的按钮 Clone or download，点击会看到一个git@github开头的路径，复制到 repository 后面</p>
+<p>打开Github下刚刚创建的仓库(xx.github.io)，有一个绿色的按钮 Clone or download，点击会看到 git@github开头的路径，复制到 repository 后面</p>
 <p>这里要注意的是，_config.yml中，冒号后面必须有空格！切记！</p>
 <h4 id="上传-1"><a href="#上传-1" class="headerlink" title="上传"></a>上传</h4><p>准备工作完毕，接下来我们开始上传，这里也是三个命令。</p>
 <p>清除缓存：hexo clean</p>
@@ -484,6 +484,7 @@
 <p>上传：hexo d</p>
 <p>成功的话，你的仓库中会新增一些文件，接着访问 https://你的仓库名,有页面就说明Hexo部署成功了。</p>
 <p>切记，一定要先hexo clean和hexo g。</p>
+<p>（未完待续…）</p>
 
       
     </div>
@@ -545,8 +546,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/11/21/Hexo-GitHub%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" rel="next" title="Hexo+GitHub搭建博客(上)">
-                <i class="fa fa-chevron-left"></i> Hexo+GitHub搭建博客(上)
+              <a href="/2019/11/19/%E6%88%90%E5%8A%9F%E6%90%AD%E5%BB%BAHexo/" rel="next" title="成功搭建Hexo">
+                <i class="fa fa-chevron-left"></i> 成功搭建Hexo
               </a>
             
           </div>
@@ -639,7 +640,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
